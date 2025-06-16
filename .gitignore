@@ -1,0 +1,27 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.libenv/
+LibEase/env/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore database and logs (optional)
+*.sqlite3
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
