@@ -1,8 +1,8 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
-from app.models.user import User
-from app.schemas.user import UserCreate
+from app.models.user.user import User
+from app.schemas.user.user import UserCreate
 from app.core.security import hash_password
 
 
