@@ -1,7 +1,7 @@
 # app/main.py
 
 from fastapi import FastAPI
-from app.routes.user import user as user_routes
+from app.routes import user as user_routes
 from app.core.initialize import initialize_database
 
 app = FastAPI()
